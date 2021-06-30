@@ -13,7 +13,6 @@ private:
     int p;
 
 public:
-    int a;
     myclass_priv()
     {
         p = 0;

@@ -7,5 +7,6 @@ int main()
     myclass::listClass(&a); // listclass really allocates memory and sets up private backend
     a->addVal(10); // execute private method
     std::cout << a->getPtr() << "::" << a->getVal() << std::endl; // get more private methods
+    std::cout << a->a << std::endl; // get public var
     return 0; // exit
 }
