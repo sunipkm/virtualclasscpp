@@ -1,0 +1,6 @@
+**/*.o
+**/*.out
+**/*.txt
+**/Icon*
+**/.DS_Store
+**/*.ini
